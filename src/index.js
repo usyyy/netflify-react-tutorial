@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
-
-const title = 'My Minimal React Webpack Babel Setup';
+import SurahList from './components/SurahList';
 
 ReactDOM.render(
-  <App title={title} />,
+  <div>
+    <SurahList />
+  </div>,
   document.getElementById('app')
 );
 
